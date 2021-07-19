@@ -81,7 +81,7 @@ u.idle()
 !pip install python-telegram-bot==13.0
 
 from Adafruit_IO import Client
-aio = Client('Kingvishal1','aio_nLpx91XEnfXwKE7GSdLbQgYmp8s8')
+aio = Client('Kingvishal1','aio_qunS98SL01wYgZaaTcNFZOyIYyKr')
 
 aio.send('lightonoff', 1)
 datUser_Input= aio.receive('lightonoff')
