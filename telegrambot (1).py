@@ -10,7 +10,7 @@ Original file is located at
 
 
 from Adafruit_IO import Client
-aio = Client('Kingvishal1','aio_rREj25QdERrcybSlOtWCyipNn1H2')
+aio = Client('Kingvishal1','aio_EvMs95c1RDCRZnzaKNFF4443LGWB')
 
 from telegram.ext import Updater, CommandHandler,MessageHandler,Filters
 def demo1(bot,update):
@@ -76,19 +76,3 @@ dp.add_handler(MessageHandler(Filters.text,main))
 u.start_polling()
 u.idle()
 
-!pip install adafruit-io --quiet
-!pip install python-telegram-bot==13.0
-
-from Adafruit_IO import Client
-aio = Client('Kingvishal1','aio_qunS98SL01wYgZaaTcNFZOyIYyKr')
-
-aio.send('lightonoff', 1)
-datUser_Input= aio.receive('lightonoff')
-print(f'Received value: {data.value}')
-
-aio.send('fanonoff', 1)
-datUser_Input= aio.receive('fanonoff')
-print(f'Received value: {data.value}')
-
-!pip install adafruit-io --quiet
-!pip install python-telegram-bot==13.0
