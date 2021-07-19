@@ -11,7 +11,7 @@ Original file is located at
 !pip install python-telegram-bot==13.0
 
 from Adafruit_IO import Client
-aio = Client('Kingvishal1','aio_qunS98SL01wYgZaaTcNFZOyIYyKr')
+aio = Client('Kingvishal1','aio_rREj25QdERrcybSlOtWCyipNn1H2')
 
 from telegram.ext import Updater, CommandHandler,MessageHandler,Filters
 def demo1(bot,update):
