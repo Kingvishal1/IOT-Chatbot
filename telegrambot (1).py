@@ -7,7 +7,8 @@ Original file is located at
     https://colab.research.google.com/drive/15fOnMa5p6gDxE9nI65e6kC1hc_SRGAuj
 """
 
-
+!pip install adafruit-io --quiet
+!pip install python-telegram-bot==13.0
 
 from Adafruit_IO import Client
 aio = Client('Kingvishal1','aio_hhyd90JtGm5aLQdJ3bsRaDmbPnI3')
